@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\NodeProxyController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -16,3 +16,12 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+
+Route::get('/chatbot-qr', function () {
+    $port = 4001; // Cambia el puerto si es necesario
+    return redirect("http://localhost:$port");
+});
+
+
+Route::get('/node-content', [NodeProxyController::class, 'showContent']);

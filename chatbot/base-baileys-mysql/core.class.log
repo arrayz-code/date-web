@@ -1,0 +1,136 @@
+[handleMsg]:  {
+  key: {
+    remoteJid: '584147009384@s.whatsapp.net',
+    fromMe: false,
+    id: '0CDE68494A38CFBB1B89F9823FB73BC9',
+    participant: undefined
+  },
+  messageTimestamp: 1722453532,
+  pushName: 'Angel Arraiz',
+  broadcast: false,
+  message: Message {
+    conversation: 'Jola',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  verifiedBizName: 'Angel Arraiz',
+  body: 'Jola',
+  from: '584147009384'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '584147009384@s.whatsapp.net',
+    fromMe: false,
+    id: 'E4C22EA41A494DB47B6B0E197DB0CEA8',
+    participant: undefined
+  },
+  messageTimestamp: 1722453534,
+  pushName: 'Angel Arraiz',
+  broadcast: false,
+  message: Message {
+    conversation: 'Hola',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  verifiedBizName: 'Angel Arraiz',
+  body: 'Hola',
+  from: '584147009384'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_40d652e5-543f-4157-bf68-8ed8454b2653',
+  keyword: 'key_ef6f391a-bf99-4dc1-bb6a-bdf930827363',
+  answer: '¡Hola! Soy el asistente virtual de Date Vida ☕. ¿En qué puedo ayudarte hoy?',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '13e394525b24a726d9d60884b02dca45'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '584147009384@s.whatsapp.net',
+    fromMe: false,
+    id: 'B47CE8BA76E071679C2C0F548B968250',
+    participant: undefined
+  },
+  messageTimestamp: 1722453539,
+  pushName: 'Angel Arraiz',
+  broadcast: false,
+  message: Message {
+    conversation: 'Hola',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Hola',
+  from: '584147009384'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_40d652e5-543f-4157-bf68-8ed8454b2653',
+  keyword: 'key_ef6f391a-bf99-4dc1-bb6a-bdf930827363',
+  answer: '¡Hola! Soy el asistente virtual de Date Vida ☕. ¿En qué puedo ayudarte hoy?',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '13e394525b24a726d9d60884b02dca45'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '584147009384@s.whatsapp.net',
+    fromMe: false,
+    id: 'B86B2E8AFBD7370C6EBEA2BF124F3646',
+    participant: undefined
+  },
+  messageTimestamp: 1722459104,
+  pushName: 'Angel Arraiz',
+  broadcast: false,
+  message: Message {
+    conversation: 'hola',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'hola',
+  from: '584147009384'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_40d652e5-543f-4157-bf68-8ed8454b2653',
+  keyword: 'key_ef6f391a-bf99-4dc1-bb6a-bdf930827363',
+  answer: '¡Hola! Soy el asistente virtual de Date Vida ☕. ¿En qué puedo ayudarte hoy?',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '13e394525b24a726d9d60884b02dca45'
+}
