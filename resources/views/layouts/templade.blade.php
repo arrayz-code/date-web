@@ -635,7 +635,7 @@
                 <div class="col-md-3 mb-4 ms-auto">
                     <div>
                         <a href="https://www.creative-tim.com/product/material-kit">
-                            <img src="{{ asset('logo-date.jpg') }}" class="mb-3 footer-logo"
+                            <img src="{{ asset('logo-date.png') }}" class="mb-3 footer-logo"
                                 alt="main_logo">
                         </a>
                         <h6 class="font-weight-bolder mb-4">Date Vida</h6>
