@@ -7,9 +7,9 @@
       <span class="mask bg-gradient-warning opacity-4"></span>
       <div class="container">
           <div class="row">
+          
               <div class="col-lg-7 text-center mx-auto">
-                  <h1 class="text-white pt-3 mt-n5">Date Vida</h1>
-                  <p class="lead text-white mt-3">Date Sabor, Date Vida  </p>
+                <img style="width: 400px; text-align:center" src="{{asset('logo-date.png')}}"  >
               </div>
           </div>
       </div>
