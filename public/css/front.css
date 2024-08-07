@@ -1,0 +1,130 @@
+:root {
+    --color-primary: #47200f; /* Color primario */
+    --color-secondary: #f5a333; /* Color secundario */
+    --color-accent: #ffffcb; /* Color de acento */
+    --color-white: #ffffff; /* Blanco */
+    --color-black: #000000; /* Negro */
+    --color-dark-text: #000000; /* Color de texto oscuro (negro) */
+}
+    
+
+/* General Navbar Styling */
+.navbar {
+    background-color: var(--color-accent); /* Cambia el color de fondo del navbar al color de acento */
+    padding: 10px 0; /* Reduce el padding superior e inferior */
+    margin-bottom: 0; /* Asegúrate de que no haya espacio adicional debajo del navbar */
+    border-bottom: 3px solid var(--color-primary); /* Borde inferior de color primario y un poco más grueso */
+}
+
+.navbar-default .navbar-brand {
+    color: var(--color-black);
+    font-weight: bold;
+    font-size: 1.5em; /* Ajusta el tamaño del texto según sea necesario */
+    display: flex;
+    align-items: center; /* Centra verticalmente el contenido */
+    height: 100%; /* Asegúrate de que el contenido ocupe toda la altura del navbar */
+}
+
+.navbar-default .navbar-header, .navbar-default .navbar-collapse {
+    display: flex;
+    align-items: center; /* Centra verticalmente los elementos dentro del navbar */
+}
+
+/* Social Media Icons */
+.social-media {
+    display: flex;
+    align-items: center; /* Centra verticalmente los iconos sociales */
+    margin-top: 0; /* Ajusta el margen superior si es necesario */
+}
+
+.social-media a {
+    font-size: 1.2em;
+    color: var(--color-accent);
+    margin: 0 5px; /* Espaciado entre iconos */
+}
+
+.social-media a:hover {
+    color: var(--color-black);
+}
+
+/* Navigation Links */
+.navbar-default .navbar-nav > li > a {
+    color: var(--color-dark-text); /* Usa color oscuro para el texto */
+    text-transform: uppercase;
+    display: flex;
+    align-items: center; /* Centra verticalmente los enlaces de navegación */
+    padding: 10px 15px; /* Ajusta el padding para mayor control sobre la altura */
+    font-family: 'Nunito', sans-serif; /* Usa la fuente 'Nunito' */
+    font-weight: 700; /* Texto en negrita */
+}
+
+.navbar-default .navbar-nav > .active > a, 
+.navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a:focus {
+    background-color: transparent; /* Elimina el fondo por defecto en activo */
+    color: var(--color-primary);
+    font-weight: 700; /* Texto en negrita en estado activo */
+}
+
+.navbar-default .navbar-nav > li > a:hover, 
+.navbar-default .navbar-nav > li > a:focus {
+    color: var(--color-black); /* Color en hover y focus */
+}
+
+/* Hamburger Menu Icon */
+.navbar-default .navbar-toggle {
+    border-color: transparent; /* Elimina el borde por defecto */
+    margin-top: 8px; /* Ajusta el margen superior para centrar verticalmente el icono del menú */
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: var(--color-black); /* Cambia el color del icono */
+}
+
+/* Responsiveness (Adjust if needed) */
+@media (max-width: 768px) {
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+        color: var(--color-secondary);
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+        color: var(--color-black);
+    }
+}
+
+.logo-img {
+    max-height: 50px; /* Ajusta la altura máxima del logo */
+    margin-top: 0; /* Ajusta el margen superior si es necesario */
+}
+
+/* Ajustes para la barra de navegación */
+.navbar-default {
+    padding: 10px 0; /* Ajusta el padding para reducir la altura del navbar */
+}
+
+.navbar-default .navbar-brand {
+    padding: 0; /* Elimina el padding por defecto del enlace de la marca */
+}
+
+/* New Section for Centered Logo and Message */
+.centered-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    text-align: center;
+    background-color: var(--color-white); /* Ajusta el fondo si es necesario */
+    font-family: 'Nunito', sans-serif; /* Aplica la fuente 'Nunito' */
+}
+
+.centered-content .logo-img {
+    max-height: 150px; /* Ajusta el tamaño del logo si es necesario */
+    margin-bottom: 20px;
+}
+
+.centered-content h1 {
+    font-size: 2.5em; /* Ajusta el tamaño del texto */
+    color: var(--color-dark-text); /* Usa negro para un color de texto oscuro */
+    font-weight: 700; /* Texto en negrita */
+    margin: 0;
+}

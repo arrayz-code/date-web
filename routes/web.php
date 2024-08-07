@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\FrontController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\NodeProxyController;
 /*
@@ -12,10 +13,15 @@ use App\Http\Controllers\NodeProxyController;
 | contains the "web" middleware group. Now create something great!
 |
 */
-
-Route::get('/', function () {
-    return view('welcome');
+Route::controller(FrontController::class)->group(function(){
+Route::get('/', 'index')->name('app.front');
 });
+
+Route::get('/dashboard', function () {
+    return view('dashboard');
+});
+
+
 
 
 Route::get('/chatbot-qr', function () {
