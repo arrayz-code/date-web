@@ -102,31 +102,27 @@
                                         <div class="d-lg-none">
                                             <h6
                                                 class="dropdown-header text-dark font-weight-bolder d-flex align-items-center px-1">
-                                                Landing Pages
+                                                Conócenos
                                             </h6>
-
                                             <a href="./pages/about-us.html" class="dropdown-item border-radius-md">
-                                                <span>About Us</span>
+                                                <span>Acerca de nosotros</span>
                                             </a>
                                             <a href="./pages/contact-us.html" class="dropdown-item border-radius-md">
-                                                <span>Contact Us</span>
+                                                <span>Contáctanos</span>
                                             </a>
-                                            <a href="./pages/author.html" class="dropdown-item border-radius-md">
-                                                <span>Author</span>
-                                            </a>
-
                                             <h6
                                                 class="dropdown-header text-dark font-weight-bolder d-flex align-items-center px-1 mt-3">
-                                                Account
+                                                Cuenta
                                             </h6>
                                             <a href="./pages/sign-in.html" class="dropdown-item border-radius-md">
                                                 <span>Sign In</span>
                                             </a>
-
                                         </div>
 
                                     </div>
                                 </li>
+
+
 
                                 <li class="nav-item dropdown dropdown-hover mx-2">
                                     <a class="nav-link ps-2 d-flex cursor-pointer align-items-center"
@@ -141,17 +137,16 @@
                                         <div class="d-none d-lg-block">
                                             <ul class="list-group">
                                                 <li class="nav-item list-group-item border-0 p-0">
-                                                    <a class="dropdown-item py-2 ps-3 border-radius-md"
-                                                        href=" https://www.creative-tim.com/learning-lab/bootstrap/overview/material-kit ">
+                                                    <a class="dropdown-item py-2 ps-3 border-radius-md" href="  ">
                                                         <h6
                                                             class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0">
                                                             Menú</h6>
-                                                        <span class="text-sm">Consulta aquí las especialidades de la casa</span>
+                                                        <span class="text-sm">Consulta aquí las especialidades de la
+                                                            casa</span>
                                                     </a>
                                                 </li>
                                                 <li class="nav-item list-group-item border-0 p-0">
-                                                    <a class="dropdown-item py-2 ps-3 border-radius-md"
-                                                        href=" https://www.creative-tim.com/learning-lab/bootstrap/datepicker/material-kit ">
+                                                    <a class="dropdown-item py-2 ps-3 border-radius-md" href="  ">
                                                         <h6
                                                             class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0">
                                                             Promo</h6>
@@ -160,29 +155,25 @@
                                                 </li>
                                             </ul>
                                         </div>
-
                                         <div class="row d-lg-none">
                                             <div class="col-md-12 g-0">
                                                 <a class="dropdown-item py-2 ps-3 border-radius-md"
                                                     href="./pages/about-us.html">
                                                     <h6
                                                         class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0">
-                                                        Getting Started</h6>
-                                                    <span class="text-sm">All about overview, quick start, license and
-                                                        contents</span>
+                                                        Promo</h6>
+                                                    <span class="text-sm">¡No te pierdas las promo!</span>
                                                 </a>
-
                                                 <a class="dropdown-item py-2 ps-3 border-radius-md"
                                                     href="./pages/about-us.html">
                                                     <h6
                                                         class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0">
-                                                        Foundation</h6>
-                                                    <span class="text-sm">See our colors, icons and typography</span>
+                                                        Menú</h6>
+                                                    <span class="text-sm">Consulta aquí las especialidades de la
+                                                        casa</span>
                                                 </a>
-
                                             </div>
                                         </div>
-
                                     </ul>
                                 </li>
                                 <li class="nav-item ms-lg-auto">
