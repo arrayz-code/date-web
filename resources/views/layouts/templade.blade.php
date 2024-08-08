@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" itemscope itemtype="http://schema.org/WebPage">
 
-<head>
+<head> @yield('head')
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -12,12 +12,10 @@
 
 
 
-        Date Vida 
+        Date Vida
 
 
     </title>
-
-
 
     <!--     Fonts and icons     -->
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
@@ -34,31 +32,29 @@
 
     <!-- CSS Files -->
 
-
-
     <link id="pagestyle" href={{ asset('assets/front/assets/css/material-kit.css?v=3.0.4') }} rel="stylesheet" />
-
-
 
 
 
     <!-- Nepcha Analytics (nepcha.com) -->
     <!-- Nepcha is a easy-to-use web analytics. No cookies and fully compliant with GDPR, CCPA and PECR. -->
     <script defer data-site="YOUR_DOMAIN_HERE" src="https://api.nepcha.com/js/nepcha-analytics.js"></script>
+    @show
 </head>
+
 
 <body class="index-page bg-gray-200">
 
 
     <!-- Navbar -->
+    @yield('header')
     <div class="container position-sticky z-index-sticky top-0">
         <div class="row">
             <div class="col-12">
                 <nav
                     class="navbar navbar-expand-lg  blur border-radius-xl top-0 z-index-fixed shadow position-absolute my-3 py-2 start-0 end-0 mx-4">
                     <div class="container-fluid px-0">
-                        <a class="navbar-brand font-weight-bolder ms-sm-3"
-                            href="https://demos.creative-tim.com/material-kit/index" rel="tooltip"
+                        <a class="navbar-brand font-weight-bolder ms-sm-3" href="/" rel="tooltip"
                             title="Designed and Coded by Creative Tim" data-placement="bottom" target="_blank">
                             Date Vida
                         </a>
@@ -582,8 +578,7 @@
                                     </ul>
                                 </li>
                                 <li class="nav-item ms-lg-auto">
-                                    <a class="nav-link nav-link-icon me-2"
-                                        href="/login" target="_blank">
+                                    <a class="nav-link nav-link-icon me-2" href="/login" target="_blank">
                                         <i class="fa fa-github me-1"></i>
                                         <p class="d-inline text-sm z-index-1 font-weight-bold" data-bs-toggle="tooltip"
                                             data-bs-placement="bottom" title="Ingresa ya">Login</p>
@@ -603,40 +598,24 @@
             </div>
         </div>
     </div>
+    @show
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    @yield('header')
 
     @yield('content')
 
+    @show
+
+    @section('footer')
     <!-- -------   START PRE-FOOTER 2 - simple social line w/ title & 3 buttons    -------- -->
     <!-- -------   END PRE-FOOTER 2 - simple social line w/ title & 3 buttons    -------- -->
-
     <footer class="footer pt-5 mt-5">
         <div class="container">
             <div class=" row">
                 <div class="col-md-3 mb-4 ms-auto">
                     <div>
                         <a href="https://www.creative-tim.com/product/material-kit">
-                            <img src="{{ asset('logo-date.png') }}" class="mb-3 footer-logo"
-                                alt="main_logo">
+                            <img src="{{ asset('logo-date.png') }}" class="mb-3 footer-logo" alt="main_logo">
                         </a>
                         <h6 class="font-weight-bolder mb-4">Date Vida</h6>
                     </div>
@@ -810,7 +789,9 @@
             </div>
         </div>
     </footer>
+    @show
 
+    @yield('scripts')
     <!--   Core JS Files   -->
     <script src="{{ asset('assets/front/assets/js/core/popper.min.js')}} " type="text/javascript"></script>
     <script src="{{ asset('assets/front/assets/js/core/bootstrap.min.js')}}" type="text/javascript"></script>
@@ -875,8 +856,6 @@
     };
   }
     </script>
-
-
 
 </body>
 

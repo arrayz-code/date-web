@@ -1,9 +1,10 @@
 @extends('layouts.templade')
 
 @section('header')
-  
+@endsection
+@section('content')
 <header class="header-2">
-  <div class="page-header min-vh-75 relative" style="background-image: url('https://info.inmobilia.mx/hubfs/restaurantes-gourmet-merida.jpeg')">
+  <div class="page-header min-vh-65 relative" style="background-color:#f5a333">
       <span class="mask bg-gradient-warning opacity-4"></span>
       <div class="container">
           <div class="row">
@@ -16,8 +17,8 @@
   </div>
 </header>
 
-@endsection
 
-@section('content')
+
+
 
 @endsection

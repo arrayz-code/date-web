@@ -17,8 +17,8 @@ Route::controller(FrontController::class)->group(function(){
 Route::get('/', 'index')->name('app.front');
 });
 
-Route::get('/dashboard', function () {
-    return view('dashboard');
+Route::get('/login', function () {
+    return view('app.front.sign-in');
 });
 
 
