@@ -2,32 +2,24 @@
 
 use App\Http\Controllers\FrontController;
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\NodeProxyController;
-/*
-|--------------------------------------------------------------------------
-| Web Routes
-|--------------------------------------------------------------------------
-|
-| Here is where you can register web routes for your application. These
-| routes are loaded by the RouteServiceProvider within a group which
-| contains the "web" middleware group. Now create something great!
-|
-*/
+use App\Http\Controllers\AuthController;
+
+
+Route::get('/login', [AuthController::class, 'showLoginForm'])->name('login');
+Route::post('/login', [AuthController::class, 'login']);
+Route::post('/logout', [AuthController::class, 'logout'])->name('logout');
+
+
 Route::controller(FrontController::class)->group(function(){
 Route::get('/', 'index')->name('app.front');
 });
 
-Route::get('/login', function () {
-    return view('app.front.sign-in');
+
+Route::middleware('auth')->group(function () {
+    Route::get('/dashboard', function () {
+        return view('layouts.app');
+    });
 });
 
 
 
-
-Route::get('/chatbot-qr', function () {
-    $port = 4001; // Cambia el puerto si es necesario
-    return redirect("http://localhost:$port");
-});
-
-
-Route::get('/node-content', [NodeProxyController::class, 'showContent']);
